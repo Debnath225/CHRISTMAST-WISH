@@ -72,5 +72,5 @@ input[type="text"]{
     border-radius: 10px;
     background-image: url(christmas-png-47090.png);
     background-size: cover;
-    box-shadow: 3px 4px black;
+    box-shadow: 3px 4px rgba(00,00,00,0.5);
 }
