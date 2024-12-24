@@ -25,7 +25,7 @@ var x = setInterval(function() {
   + minutes + "m " + seconds + "s ";
     
   // If the count down is over, write some text 
-  if (distance < 0) {
+  if (distance =< 0) {
     clearInterval(x);
     document.getElementById("TimeUp").innerHTML = "MARRY CHRISTMAS";
   }
