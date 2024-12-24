@@ -48,6 +48,7 @@ header{
 }
 
 input[type="text"]{
+     cursor: text;
     height: 35px;
     width: 350px;
     border-radius: 12px;
@@ -55,6 +56,7 @@ input[type="text"]{
     border: none;
 }
 #sBtn{
+     cursor: pointer;
     color: whitesmoke;
     text-shadow:  6px 4px 10px  rgba(29, 164, 242, 0.767),
     3px 5px 12px rgba(59, 55, 178, 0.978),
