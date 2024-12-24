@@ -27,6 +27,6 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("TimeUp").innerHTML = "EXPIRED";
+    document.getElementById("TimeUp").innerHTML = "MARRY CHRISTMAS";
   }
 }, 1000);
