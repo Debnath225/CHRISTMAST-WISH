@@ -3,6 +3,7 @@ margin: 0px;
 padding: 0px;
 background-image:url(chimg.jpg);
 background-attachment: fixed;
+aspect-ratio:16/9;
 background-clip: content-box;
 background-position: center;
 background-repeat: no-repeat;
