@@ -1,0 +1,74 @@
+
+body{
+font-family: Brush Script MT,cursive,segoe UI;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(christmas_img.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    background:linear-gradient(blue,rgba(207, 217, 219,0.1));
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#MarryC{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 4px;
+    z-index: 80000;
+    color: aliceblue;
+    font-size: 28px;
+    text-shadow:  6px 4px 10px  rgba(29, 164, 242, 0.767),
+3px 5px 12px rgba(59, 55, 178, 0.978),
+8px 9px 16px rgb(29, 157, 193),
+6px 7px 20px rgb(5, 189, 128);
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chi{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 300;
+    text-shadow:  6px 4px 10px  rgba(29, 164, 242, 0.767),
+3px 5px 12px rgba(59, 55, 178, 0.978),
+8px 9px 16px rgb(29, 157, 193),
+6px 7px 20px rgb(5, 189, 128);
+}
+
+input[type="text"]{
+    height: 35px;
+    width: 350px;
+    border-radius: 12px;
+    padding-left: 10px;
+    border: none;
+}
+#sBtn{
+    color: whitesmoke;
+    text-shadow:  6px 4px 10px  rgba(29, 164, 242, 0.767),
+    3px 5px 12px rgba(59, 55, 178, 0.978),
+    8px 9px 16px rgb(29, 157, 193),
+    6px 7px 20px rgb(5, 189, 128);
+    font-weight: 600;
+    margin-left: 75px;
+    font-family: Brush Script MT;
+    font-size: 35px;
+    height: 60px;
+    width: 175px;
+    border: none;
+    border-radius: 10px;
+    background-image: url(/christmas-png-47090.png);
+    background-size: cover;
+    box-shadow: 3px 4px black;
+}
