@@ -1,0 +1,60 @@
+body{
+margin: 0px;
+padding: 0px;
+background-image:url(chimg.jpg);
+background-attachment: fixed;
+background-clip: content-box;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#timeUp{
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+#MarryC{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 4px;
+    z-index: 80000;
+    color: aliceblue;
+    font-size: 28px;
+    text-shadow:  6px 4px 10px  rgba(29, 164, 242, 0.767),
+3px 5px 12px rgba(59, 55, 178, 0.978),
+8px 9px 16px rgb(29, 157, 193),
+6px 7px 20px rgb(5, 189, 128);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+#about{
+    background-color: aliceblue;
+    height:500px;
+    width: 480px;
+    border: 3px solid rgba(250, 244, 244,.6);
+}
+#about1{
+font-weight: 800;
+    font-family: 'Courier New';
+    font-size: 28px;
+    text-wrap: wrap;
+}
+#wish{
+    color: wheat;
+    font-size: 40px;
+    text-shadow:  2px 2px 10px  rgb(235, 33, 6),
+    3px 5px 12px rgba(235, 63, 6, 0.978),
+    8px 9px 16px rgb(245, 128, 2),
+    6px 7px 20px rgb(235, 98, 6);
+}
