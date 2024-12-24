@@ -8,10 +8,15 @@ const givenVal = `fName +lName`;
     User.push()=givenVal;
   }
   elseif(fName!==0&&lName===0){
-givenVal = `lName`;
+givenVal = `fName`;
     User.push()=givenVal;
   }
-  elseif(){
-
+  elseif(fName===0&&lName!==0){
+givenVal = `lName`;
+    User.push() = givenVal;
   }
+  else{
+    return 0;
+  }
+  
 }
