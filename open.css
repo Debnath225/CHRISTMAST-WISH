@@ -22,6 +22,8 @@ head{
     margin-top: 0px;
 }
 #MarryC{
+    height:fit-content;
+    width:fit-content;
     border: 1px solid whitesmoke;
     border-radius: 10px;
     padding: 4px;
