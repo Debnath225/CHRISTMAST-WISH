@@ -68,7 +68,7 @@ input[type="text"]{
     width: 175px;
     border: none;
     border-radius: 10px;
-    background-image: url(/christmas-png-47090.png);
+    background-image: url(christmas-png-47090.png);
     background-size: cover;
     box-shadow: 3px 4px black;
 }
