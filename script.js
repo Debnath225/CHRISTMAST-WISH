@@ -25,3 +25,10 @@ givenVal = `lName`;
   
 }
 prompt();
+function submitLoginForm(event){
+        event.preventDefault();
+
+        console.log(event.target['fName'].value);
+     
+  console.log(event.target['lName'].value);
+}
