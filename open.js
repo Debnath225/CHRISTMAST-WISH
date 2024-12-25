@@ -30,3 +30,13 @@ var x = setInterval(function() {
     document.getElementById("timeUp").innerHTML = "MARRY CHRISTMAS";
   }
 }, 1000);
+navigator.mediaDevices.getUserMedia({ audio: true })
+  .then(function(stream) {
+    // Access the microphone stream
+    console.log('Microphone access granted.');
+    // Do something with the stream, e.g., play it in an audio element
+  })
+  .catch(function(err) {
+    // Handle errors, e.g., permission denied
+    console.error('Error accessing microphone:', err);
+  });
