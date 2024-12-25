@@ -19,9 +19,7 @@ givenVal = `lName`;
     User.push() = givenVal;
     prompt(`MARRY CHRISTMAS givenVal`);
   }
-  else{
-    return 0;
-  }
+
   
 }
 prompt();
@@ -29,6 +27,6 @@ function submitLoginForm(event){
         event.preventDefault();
 
         console.log(event.target['fName'].value);
-     
+     alart(`event.target['fName'].Value Marry Christmas`)
   console.log(event.target['lName'].value);
 }
