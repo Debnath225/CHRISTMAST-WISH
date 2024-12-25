@@ -48,6 +48,8 @@ header{
 }
 
 input[type="text"]{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     cursor: text;
     height: 48px;
     width: 350px;
